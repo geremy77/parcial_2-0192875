@@ -1,18 +1,45 @@
 .titulo{
-    
+    margin-top: 50px; 
     text-align: center;
 }
 
 .subtitulo{
-
+    margin-top: 50px;   
     text-align: center;
 }
 
 .titulo_servicios{
+    margin-top: 50px; 
     text-align: center;
 }
 
-.servicios{
-    text-align: left;
+.titulo_servicios {
+  margin-top: 50px; 
+  text-align: center; 
 }
 
+
+.servicios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.servicios article {
+  flex: 1 1 220px;
+  max-width: 300px;
+  padding: 10px;
+  text-align: center;
+}
+
+.lugares{
+
+   text-align: center;
+}
+
+.lugares_bajocolor{
+    color: rgba(90, 82, 82, 0.768);
+}
